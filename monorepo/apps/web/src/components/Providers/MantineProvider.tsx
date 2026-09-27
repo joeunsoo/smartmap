@@ -1,6 +1,5 @@
 import { MantineProvider } from "@mantine/core"
 import { theme } from "@/MantineTheme"
-
 type LayoutProps = {
   children: React.ReactNode
 }

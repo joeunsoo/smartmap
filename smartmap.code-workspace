@@ -1,7 +1,10 @@
 {
-	"folders": [
-		{
-			"path": "front"
-		}
-	]
+  "folders": [
+    {
+      "path": "front",
+    },
+    {
+      "path": "monorepo",
+    },
+  ],
 }

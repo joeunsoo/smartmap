@@ -52,7 +52,7 @@ const eslintConfig = [
     },
   },
   {
-    ignores: ['dist/**', '.next/**'],
+    ignores: ['dist/**', '.next/**', 'next-env.d.ts', 'node_modules/**'],
   },
 ];
 

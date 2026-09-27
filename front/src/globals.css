@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "tailwindcss";
 
 :root {
   --icon-size-xs: 14px;
@@ -6,7 +7,6 @@
   --icon-size-md: 18px;
   --icon-size-lg: 20px;
   --icon-size-xl: 24px;
-  --icon-size-play: 32px;
   --font-sans: 'SUIT', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Pretendard', 'Pretendard Variable', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif; 
 }
 

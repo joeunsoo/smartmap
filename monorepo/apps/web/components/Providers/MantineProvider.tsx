@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { MantineProvider } from "@mantine/core"
 import { emotionTransform, MantineEmotionProvider } from "@mantine/emotion"
-import { theme } from "@/mantineTheme"
+import { theme } from "@workspace/ui/mantineTheme"
 
 import "@mantine/core/styles.css"
 import "@mantine/notifications/styles.css"

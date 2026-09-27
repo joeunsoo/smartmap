@@ -1,5 +1,5 @@
 import "@workspace/ui/globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
+import Providers from "@/components/Providers"
 import { cn } from "@workspace/ui/lib/utils"
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )

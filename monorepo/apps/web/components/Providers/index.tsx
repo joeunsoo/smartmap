@@ -1,4 +1,3 @@
-import { ThemeProvider as NextThemeProvider } from "./NextThemeProvider"
 import MantineProvider from "./MantineProvider"
 
 type LayoutProps = {
@@ -6,9 +5,5 @@ type LayoutProps = {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  return (
-    <MantineProvider>
-      <NextThemeProvider>{children}</NextThemeProvider>
-    </MantineProvider>
-  )
+  return <MantineProvider>{children}</MantineProvider>
 }

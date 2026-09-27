@@ -1,3 +1,5 @@
+import { Button } from "@mantine/core"
+
 export default function Page() {
   return (
     <div className="flex min-h-svh p-6">
@@ -10,6 +12,7 @@ export default function Page() {
         <div className="text-muted-foreground font-mono text-xs">
           (Press <kbd>d</kbd> to toggle dark mode)
         </div>
+        <Button>Click me</Button>
       </div>
     </div>
   )

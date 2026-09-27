@@ -24,8 +24,5 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "dependencies": {
-    "chroma-js": "^3.2.0"
-  }
+  ]
 }

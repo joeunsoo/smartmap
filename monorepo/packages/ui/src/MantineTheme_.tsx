@@ -1,5 +1,3 @@
-"use client"
-
 import { createTheme } from "@mantine/core"
 import { paletteMantine } from "./Color"
 

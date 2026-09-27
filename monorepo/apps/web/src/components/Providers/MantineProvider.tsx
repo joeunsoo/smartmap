@@ -1,7 +1,5 @@
-"use client"
-
 import { MantineProvider } from "@mantine/core"
-import { theme } from "@workspace/ui/mantineTheme"
+import { theme } from "@/MantineTheme"
 
 import "@mantine/core/styles.css"
 import "@mantine/notifications/styles.css"
